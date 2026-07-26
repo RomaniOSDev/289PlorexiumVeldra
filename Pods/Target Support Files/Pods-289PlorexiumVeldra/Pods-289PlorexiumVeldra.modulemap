@@ -1,0 +1,6 @@
+framework module Pods_289PlorexiumVeldra {
+  umbrella header "Pods-289PlorexiumVeldra-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0718293A4B5C6D7E8F901A2B /* Views/Main/CoachMarksOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18293A4B5C6D7E8F901A2B3C /* Views/Main/CoachMarksOverlay.swift */; };
+		13F1206C8F7CF0F9D31B7E59 /* Application/AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B16A04AEAEDA4A6DEA47ABD /* Application/AppDelegate.swift */; };
+		1F0163E4A285CAE7EE9C8C6C /* Views/Settings/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF93089317740E8918685360 /* Views/Settings/SettingsView.swift */; };
+		213D1671AFF3064C3C320767 /* Utilities/ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A179B7CDB1BF53FEC87F65CB /* Utilities/ShakeEffect.swift */; };
+		22CEB2841824EC966D2A9D12 /* Views/Features/TemperatureInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2AE397143C94D07E479FE /* Views/Features/TemperatureInsightsView.swift */; };
+		2D099FCE84A85E286755FAC7 /* Views/Achievements/AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453BACEDE4EE183BF90D71EF /* Views/Achievements/AchievementsView.swift */; };
+		3140C040CB0EE656AE32737F /* Models/TemperatureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6EE75247C705B14656C226 /* Models/TemperatureModels.swift */; };
+		58FAC993F90FEC4DB291D7BE /* Utilities/ScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD94D68C6D03E115C0CE70 /* Utilities/ScreenBackground.swift */; };
+		61B3884D30F04D217F7ACEDD /* Resources/privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = BCC80F391449F28C225A383D /* Resources/privacy_policy.md */; };
+		7BC52A13241EB476ED1E4BAC /* Models/Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C052B86B003A71F1CB39D33 /* Models/Achievement.swift */; };
+		83B57ED4C1B3B240795A577A /* Views/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE930068DD46EA0E2317A1 /* Views/ContentView.swift */; };
+		83BD5285571130F2760B7B1F /* Utilities/DesignComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390708E662C259522193B354 /* Utilities/DesignComponents.swift */; };
+		886CDC99F545E232F4B8656C /* Base.lproj/LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3EE50D2E8E0C8F6B7FE159 /* Base.lproj/LaunchScreen.storyboard */; };
+		915761BDAAFDB0C8C8E92265 /* Services/HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F91877E64ECD377679672 /* Services/HapticService.swift */; };
+		A1B2C3D4E5F60718293A4B5C /* Utilities/ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F60718293A4B5C6D /* Utilities/ThemeManager.swift */; };
+		ADF5AED7F623D3A510D4B6E5 /* Application/SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C6790241E8DCF43C1DE436 /* Application/SceneDelegate.swift */; };
+		B71DB6874F99F4E76E266FB5 /* ViewModels/AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53D23F8892A3531CFF13739 /* ViewModels/AppDataStore.swift */; };
+		BBB8B0F23905CCDD39A85B33 /* Views/Features/TemperatureAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C111DB7BB0E845048BC1636 /* Views/Features/TemperatureAlertsView.swift */; };
+		BFD5EBB3F154C61BF7FF300B /* Views/Stats/StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B396862A3814B7C6D5293 /* Views/Stats/StatsView.swift */; };
+		C3D4E5F60718293A4B5C6D7E /* Services/ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5F60718293A4B5C6D7E8F /* Services/ReminderService.swift */; };
+		CED6421F0EF8B5C13AF8FAF1 /* Views/Features/TemperatureTrendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44753D4431C5ADC1632CC447 /* Views/Features/TemperatureTrendView.swift */; };
+		DBAC1D5F014D8013E2B2A5A2 /* Views/Main/MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACE88EDC4D6BAB872F7ECC /* Views/Main/MainTabView.swift */; };
+		DE7FB98D441939370A370CA6 /* Services/AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA22DF76867AE4F5B32771 /* Services/AppLinks.swift */; };
+		E5F60718293A4B5C6D7E8F90 /* Views/Features/TriggerHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60718293A4B5C6D7E8F901A /* Views/Features/TriggerHistoryView.swift */; };
+		E915EFCF4A2347947C28C059 /* Views/Onboarding/OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC38C416058C4FEE0919F31 /* Views/Onboarding/OnboardingView.swift */; };
+		FC6BE313700B49F8CE7B52CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79CE00748DA18BEDD36F962 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AACE88EDC4D6BAB872F7ECC /* Views/Main/MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Main/MainTabView.swift; sourceTree = "<group>"; };
+		0C052B86B003A71F1CB39D33 /* Models/Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Achievement.swift; sourceTree = "<group>"; };
+		0FE2AE397143C94D07E479FE /* Views/Features/TemperatureInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TemperatureInsightsView.swift; sourceTree = "<group>"; };
+		10BF7CA33B2CFE2AC35E09C1 /* 289PlorexiumVeldra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 289PlorexiumVeldra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FA22DF76867AE4F5B32771 /* Services/AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AppLinks.swift; sourceTree = "<group>"; };
+		18293A4B5C6D7E8F901A2B3C /* Views/Main/CoachMarksOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Main/CoachMarksOverlay.swift; sourceTree = "<group>"; };
+		390708E662C259522193B354 /* Utilities/DesignComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/DesignComponents.swift; sourceTree = "<group>"; };
+		3B3EE50D2E8E0C8F6B7FE159 /* Base.lproj/LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C111DB7BB0E845048BC1636 /* Views/Features/TemperatureAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TemperatureAlertsView.swift; sourceTree = "<group>"; };
+		40C6790241E8DCF43C1DE436 /* Application/SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application/SceneDelegate.swift; sourceTree = "<group>"; };
+		44753D4431C5ADC1632CC447 /* Views/Features/TemperatureTrendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TemperatureTrendView.swift; sourceTree = "<group>"; };
+		453BACEDE4EE183BF90D71EF /* Views/Achievements/AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Achievements/AchievementsView.swift; sourceTree = "<group>"; };
+		4D069CECA341F2E8EED10EC5 /* Pods_289PlorexiumVeldra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_289PlorexiumVeldra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		579CD2F3724D37C7911A9DBB /* Pods-289PlorexiumVeldra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-289PlorexiumVeldra.release.xcconfig"; path = "Target Support Files/Pods-289PlorexiumVeldra/Pods-289PlorexiumVeldra.release.xcconfig"; sourceTree = "<group>"; };
+		688F91877E64ECD377679672 /* Services/HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/HapticService.swift; sourceTree = "<group>"; };
+		6B16A04AEAEDA4A6DEA47ABD /* Application/AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
+		8F6EE75247C705B14656C226 /* Models/TemperatureModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/TemperatureModels.swift; sourceTree = "<group>"; };
+		96AC2B7AF45600CC36330BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A179B7CDB1BF53FEC87F65CB /* Utilities/ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/ShakeEffect.swift; sourceTree = "<group>"; };
+		ADC38C416058C4FEE0919F31 /* Views/Onboarding/OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Onboarding/OnboardingView.swift; sourceTree = "<group>"; };
+		AEAE930068DD46EA0E2317A1 /* Views/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
+		B2C3D4E5F60718293A4B5C6D /* Utilities/ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/ThemeManager.swift; sourceTree = "<group>"; };
+		BCC80F391449F28C225A383D /* Resources/privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Resources/privacy_policy.md; sourceTree = "<group>"; };
+		D37B396862A3814B7C6D5293 /* Views/Stats/StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Stats/StatsView.swift; sourceTree = "<group>"; };
+		D4E5F60718293A4B5C6D7E8F /* Services/ReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ReminderService.swift; sourceTree = "<group>"; };
+		D79CE00748DA18BEDD36F962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E94776D27B1F7B701B14ED20 /* Pods-289PlorexiumVeldra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-289PlorexiumVeldra.debug.xcconfig"; path = "Target Support Files/Pods-289PlorexiumVeldra/Pods-289PlorexiumVeldra.debug.xcconfig"; sourceTree = "<group>"; };
+		EBAD94D68C6D03E115C0CE70 /* Utilities/ScreenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/ScreenBackground.swift; sourceTree = "<group>"; };
+		EF93089317740E8918685360 /* Views/Settings/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		F53D23F8892A3531CFF13739 /* ViewModels/AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/AppDataStore.swift; sourceTree = "<group>"; };
+		F60718293A4B5C6D7E8F901A /* Views/Features/TriggerHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TriggerHistoryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E889247245FA81AE0D4217C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BB4B759B3AA7AACB09377F /* 289PlorexiumVeldra */ = {
+			isa = PBXGroup;
+			children = (
+				6B16A04AEAEDA4A6DEA47ABD /* Application/AppDelegate.swift */,
+				40C6790241E8DCF43C1DE436 /* Application/SceneDelegate.swift */,
+				D79CE00748DA18BEDD36F962 /* Assets.xcassets */,
+				3B3EE50D2E8E0C8F6B7FE159 /* Base.lproj/LaunchScreen.storyboard */,
+				96AC2B7AF45600CC36330BA5 /* Info.plist */,
+				0C052B86B003A71F1CB39D33 /* Models/Achievement.swift */,
+				8F6EE75247C705B14656C226 /* Models/TemperatureModels.swift */,
+				BCC80F391449F28C225A383D /* Resources/privacy_policy.md */,
+				11FA22DF76867AE4F5B32771 /* Services/AppLinks.swift */,
+				688F91877E64ECD377679672 /* Services/HapticService.swift */,
+				390708E662C259522193B354 /* Utilities/DesignComponents.swift */,
+				EBAD94D68C6D03E115C0CE70 /* Utilities/ScreenBackground.swift */,
+				A179B7CDB1BF53FEC87F65CB /* Utilities/ShakeEffect.swift */,
+				F53D23F8892A3531CFF13739 /* ViewModels/AppDataStore.swift */,
+				B2C3D4E5F60718293A4B5C6D /* Utilities/ThemeManager.swift */,
+				D4E5F60718293A4B5C6D7E8F /* Services/ReminderService.swift */,
+				F60718293A4B5C6D7E8F901A /* Views/Features/TriggerHistoryView.swift */,
+				18293A4B5C6D7E8F901A2B3C /* Views/Main/CoachMarksOverlay.swift */,
+				453BACEDE4EE183BF90D71EF /* Views/Achievements/AchievementsView.swift */,
+				AEAE930068DD46EA0E2317A1 /* Views/ContentView.swift */,
+				3C111DB7BB0E845048BC1636 /* Views/Features/TemperatureAlertsView.swift */,
+				0FE2AE397143C94D07E479FE /* Views/Features/TemperatureInsightsView.swift */,
+				44753D4431C5ADC1632CC447 /* Views/Features/TemperatureTrendView.swift */,
+				0AACE88EDC4D6BAB872F7ECC /* Views/Main/MainTabView.swift */,
+				ADC38C416058C4FEE0919F31 /* Views/Onboarding/OnboardingView.swift */,
+				EF93089317740E8918685360 /* Views/Settings/SettingsView.swift */,
+				D37B396862A3814B7C6D5293 /* Views/Stats/StatsView.swift */,
+			);
+			path = 289PlorexiumVeldra;
+			sourceTree = "<group>";
+		};
+		0E80B7DB55560D7CC0AF5038 = {
+			isa = PBXGroup;
+			children = (
+				04BB4B759B3AA7AACB09377F /* 289PlorexiumVeldra */,
+				208FCE1724E6BDE13B6CC967 /* Products */,
+				6F0C0BE0432495EA73679FDE /* Pods */,
+				FFB1F6BAEBC7DECEBAC8951A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		208FCE1724E6BDE13B6CC967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10BF7CA33B2CFE2AC35E09C1 /* 289PlorexiumVeldra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F0C0BE0432495EA73679FDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E94776D27B1F7B701B14ED20 /* Pods-289PlorexiumVeldra.debug.xcconfig */,
+				579CD2F3724D37C7911A9DBB /* Pods-289PlorexiumVeldra.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFB1F6BAEBC7DECEBAC8951A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D069CECA341F2E8EED10EC5 /* Pods_289PlorexiumVeldra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9320552A731E5F5C87D1065D /* 289PlorexiumVeldra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C28E65CA661F64022C739CE /* Build configuration list for PBXNativeTarget "289PlorexiumVeldra" */;
+			buildPhases = (
+				A846021307DA35B772C3311A /* [CP] Check Pods Manifest.lock */,
+				17197F38139692191BD7427B /* Sources */,
+				E889247245FA81AE0D4217C9 /* Frameworks */,
+				865EDFA3F63475E7D9E9EFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 289PlorexiumVeldra;
+			productName = 289PlorexiumVeldra;
+			productReference = 10BF7CA33B2CFE2AC35E09C1 /* 289PlorexiumVeldra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D779CDECFA0AA4A3B2D410D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9320552A731E5F5C87D1065D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 9D5DF16F121F6AFA47FF628A /* Build configuration list for PBXProject "289PlorexiumVeldra" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E80B7DB55560D7CC0AF5038;
+			productRefGroup = 208FCE1724E6BDE13B6CC967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9320552A731E5F5C87D1065D /* 289PlorexiumVeldra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		865EDFA3F63475E7D9E9EFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6BE313700B49F8CE7B52CA /* Assets.xcassets in Resources */,
+				886CDC99F545E232F4B8656C /* Base.lproj/LaunchScreen.storyboard in Resources */,
+				61B3884D30F04D217F7ACEDD /* Resources/privacy_policy.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A846021307DA35B772C3311A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-289PlorexiumVeldra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17197F38139692191BD7427B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F1206C8F7CF0F9D31B7E59 /* Application/AppDelegate.swift in Sources */,
+				ADF5AED7F623D3A510D4B6E5 /* Application/SceneDelegate.swift in Sources */,
+				7BC52A13241EB476ED1E4BAC /* Models/Achievement.swift in Sources */,
+				3140C040CB0EE656AE32737F /* Models/TemperatureModels.swift in Sources */,
+				DE7FB98D441939370A370CA6 /* Services/AppLinks.swift in Sources */,
+				915761BDAAFDB0C8C8E92265 /* Services/HapticService.swift in Sources */,
+				83BD5285571130F2760B7B1F /* Utilities/DesignComponents.swift in Sources */,
+				58FAC993F90FEC4DB291D7BE /* Utilities/ScreenBackground.swift in Sources */,
+				213D1671AFF3064C3C320767 /* Utilities/ShakeEffect.swift in Sources */,
+				B71DB6874F99F4E76E266FB5 /* ViewModels/AppDataStore.swift in Sources */,
+				2D099FCE84A85E286755FAC7 /* Views/Achievements/AchievementsView.swift in Sources */,
+				83B57ED4C1B3B240795A577A /* Views/ContentView.swift in Sources */,
+				BBB8B0F23905CCDD39A85B33 /* Views/Features/TemperatureAlertsView.swift in Sources */,
+				22CEB2841824EC966D2A9D12 /* Views/Features/TemperatureInsightsView.swift in Sources */,
+				CED6421F0EF8B5C13AF8FAF1 /* Views/Features/TemperatureTrendView.swift in Sources */,
+				DBAC1D5F014D8013E2B2A5A2 /* Views/Main/MainTabView.swift in Sources */,
+				E915EFCF4A2347947C28C059 /* Views/Onboarding/OnboardingView.swift in Sources */,
+				1F0163E4A285CAE7EE9C8C6C /* Views/Settings/SettingsView.swift in Sources */,
+				BFD5EBB3F154C61BF7FF300B /* Views/Stats/StatsView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B5C /* Utilities/ThemeManager.swift in Sources */,
+				C3D4E5F60718293A4B5C6D7E /* Services/ReminderService.swift in Sources */,
+				E5F60718293A4B5C6D7E8F90 /* Views/Features/TriggerHistoryView.swift in Sources */,
+				0718293A4B5C6D7E8F901A2B /* Views/Main/CoachMarksOverlay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AD4B9B5383E5B9E62DAF90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A98436C18433FB0FE1020EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94776D27B1F7B701B14ED20 /* Pods-289PlorexiumVeldra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 289PlorexiumVeldra/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Plorexium Veldra";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leh.pl2r6x87mv3ldr9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A4D45D1B32494A131C8B51B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579CD2F3724D37C7911A9DBB /* Pods-289PlorexiumVeldra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 289PlorexiumVeldra/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Plorexium Veldra";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leh.pl2r6x87mv3ldr9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DB36A35BE8037D326E7B5B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C28E65CA661F64022C739CE /* Build configuration list for PBXNativeTarget "289PlorexiumVeldra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A98436C18433FB0FE1020EF /* Debug */,
+				A4D45D1B32494A131C8B51B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5DF16F121F6AFA47FF628A /* Build configuration list for PBXProject "289PlorexiumVeldra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD4B9B5383E5B9E62DAF90B /* Debug */,
+				DB36A35BE8037D326E7B5B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D779CDECFA0AA4A3B2D410D5 /* Project object */;
+}
