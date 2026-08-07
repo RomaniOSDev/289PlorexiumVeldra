@@ -15,7 +15,7 @@ enum ReminderService {
         guard settings.enabled else { return }
 
         let content = UNMutableNotificationContent()
-        content.title = "WeatherWise"
+        content.title = "Plorexium Veldra"
         content.body = "Did you forget to log today's temperature?"
         content.sound = HapticService.soundEnabled ? .default : nil
 
