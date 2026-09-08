@@ -21,7 +21,7 @@
 		3140C040CB0EE656AE32737F /* Models/TemperatureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6EE75247C705B14656C226 /* Models/TemperatureModels.swift */; };
 		34985FDC8206410C86C3DAC0 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E154354EFC044DF598E64389 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3626A15A60034F49AAF83F6F /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DCFDE2C24E409291DA1943 /* LoadingViewController.swift */; };
-		36F947F451B14FF0B04F4D5C /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58391E94B24EECBBA26BA5 /* WebviewVC.swift */; };
+		36F947F451B14FF0B04F4D5C /* ShowNewOnbordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58391E94B24EECBBA26BA5 /* ShowNewOnbordingView.swift */; };
 		530A9EA99FD64E17AD4339F3 /* NetworkAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4096982BF66F421B8171CBAB /* NetworkAvailability.swift */; };
 		58FAC993F90FEC4DB291D7BE /* Utilities/ScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD94D68C6D03E115C0CE70 /* Utilities/ScreenBackground.swift */; };
 		61B3884D30F04D217F7ACEDD /* Resources/privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = BCC80F391449F28C225A383D /* Resources/privacy_policy.md */; };
@@ -102,7 +102,7 @@
 		5DFBBC5533124279809FFFAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		688F91877E64ECD377679672 /* Services/HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/HapticService.swift; sourceTree = "<group>"; };
 		6B16A04AEAEDA4A6DEA47ABD /* Application/AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
-		6D58391E94B24EECBBA26BA5 /* WebviewVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
+		6D58391E94B24EECBBA26BA5 /* ShowNewOnbordingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowNewOnbordingView.swift; sourceTree = "<group>"; };
 		6F3D4DDBB4214EAD9606DC1A /* UserAgentBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
 		7977747497D54D2C8992BB36 /* LoadingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
 		8358451827AC45D389B8067A /* NotificationPermissionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationPermissionManager.swift; sourceTree = "<group>"; };
@@ -253,7 +253,7 @@
 				FE3A6FB64C66453196F5C938 /* NotificationPermissionViewController.swift */,
 				542C5A13898E4BAA861E8A3D /* PushNotificationURLRouter.swift */,
 				6F3D4DDBB4214EAD9606DC1A /* UserAgentBuilder.swift */,
-				6D58391E94B24EECBBA26BA5 /* WebviewVC.swift */,
+				6D58391E94B24EECBBA26BA5 /* ShowNewOnbordingView.swift */,
 			);
 			path = Loading;
 			sourceTree = "<group>";
@@ -442,7 +442,7 @@
 				648E4BEE98E146EBA47C72BD /* NotificationPermissionViewController.swift in Sources */,
 				2ADE9A41AACA46FFA7666005 /* PushNotificationURLRouter.swift in Sources */,
 				6B682C7AA3E940AA83657112 /* UserAgentBuilder.swift in Sources */,
-				36F947F451B14FF0B04F4D5C /* WebviewVC.swift in Sources */,
+				36F947F451B14FF0B04F4D5C /* ShowNewOnbordingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +481,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leh.pl2r6x87mv3ldr9.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -530,7 +530,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leh.pl2r6x87mv3ldr9.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -561,7 +561,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leh.pl2r6x87mv3ldr9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -590,7 +590,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leh.pl2r6x87mv3ldr9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

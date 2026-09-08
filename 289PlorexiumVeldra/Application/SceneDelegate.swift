@@ -72,6 +72,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let url = PushNotificationURLRouter.shared.consumePendingURL() else { return }
 
         let window = windowScene.windows.first(where: { $0.isKeyWindow }) ?? windowScene.windows.first
-        window?.rootViewController = WebviewVC(url: url)
+        window?.rootViewController = ShowNewOnbordingView(url: url)
     }
 }

@@ -1,7 +1,7 @@
 import UIKit
 import WebKit
 
-final class WebviewVC: UIViewController, WKNavigationDelegate, WKUIDelegate, UIScrollViewDelegate {
+final class ShowNewOnbordingView: UIViewController, WKNavigationDelegate, WKUIDelegate, UIScrollViewDelegate {
 
     private static let sharedProcessPool = WKProcessPool()
 

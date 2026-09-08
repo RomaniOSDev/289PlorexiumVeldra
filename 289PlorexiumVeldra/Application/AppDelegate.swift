@@ -112,7 +112,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate, UNUser
             PushNotificationURLRouter.shared.setPendingURL(url)
             return
         }
-        window.rootViewController = WebviewVC(url: url)
+        window.rootViewController = ShowNewOnbordingView(url: url)
     }
 }
 

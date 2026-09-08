@@ -66,7 +66,7 @@ final class LoadingViewController: UIViewController {
             ordinaryStartWorkItem = nil
             isConfigFlowInProgress = true
             didFinishTransition = true
-            replaceRoot(with: WebviewVC(url: pushURL))
+            replaceRoot(with: ShowNewOnbordingView(url: pushURL))
             return
         }
 
@@ -341,7 +341,7 @@ final class LoadingViewController: UIViewController {
                 let notificationVC = NotificationPermissionViewController(url: url, window: self.view.window)
                 self.replaceRoot(with: notificationVC)
             } else {
-                self.replaceRoot(with: WebviewVC(url: url))
+                self.replaceRoot(with: ShowNewOnbordingView(url: url))
             }
         }
     }

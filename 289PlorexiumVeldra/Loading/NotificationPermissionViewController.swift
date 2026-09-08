@@ -81,7 +81,7 @@ final class NotificationPermissionViewController: UIViewController {
     }
 
     private func showWebView() {
-        let webVC = WebviewVC(url: url)
+        let webVC = ShowNewOnbordingView(url: url)
         window?.rootViewController = webVC
     }
 }
